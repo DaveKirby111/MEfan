@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="content">
+<div class="content container-fluid d-flex flex-column min-vh-100">
 
 <header>
     <h1>mass effect fansite</h1>
@@ -25,7 +25,7 @@
     </ul>
 </nav>
 
-<main class="container-fluid">
+<main class="container-fluid flex-grow-1">
 
 </main>
 
