@@ -28,4 +28,11 @@ TABLE OF CONTENTS:
 3. Content styles
 4. Footer styles
 
---------------------*//*# sourceMappingURL=screen.css.map */
+--------------------*/
+/* Header */
+/* Nav */
+nav ul {
+  list-style-type: none;
+}
+/* Content */
+/* Footer *//*# sourceMappingURL=screen.css.map */
