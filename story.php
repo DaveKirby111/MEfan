@@ -1,10 +1,8 @@
 <?php include "partials/head.php"; ?>
 
-<!-- <?php include "partials/nav.php" ?> -->
-
 <?php
 
-$heading = "homepage";
+$heading = "story";
 
 ?>
 

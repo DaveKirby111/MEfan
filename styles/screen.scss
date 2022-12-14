@@ -1,5 +1,5 @@
 @import "reset";
-@import "var";
+@import "_var";
 
 /*-----------------
 
@@ -14,12 +14,34 @@ TABLE OF CONTENTS:
 
 /* Header */
 
+header {
+    border: 2px solid black;
+}
+
 /* Nav */
 
 nav {
-    @include list;
+    border: 2px solid black;
+
+    ul {
+        li {
+            margin-left: 10px;
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 /* Content */
 
+.content {
+    border: 2px solid black;
+}
+
 /* Footer */
+
+footer {
+    border: 2px solid black;
+}

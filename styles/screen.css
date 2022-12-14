@@ -30,9 +30,27 @@ TABLE OF CONTENTS:
 
 --------------------*/
 /* Header */
-/* Nav */
-nav ul {
-  list-style-type: none;
+header {
+  border: 2px solid black;
 }
+
+/* Nav */
+nav {
+  border: 2px solid black;
+}
+nav ul li {
+  margin-left: 10px;
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+
 /* Content */
-/* Footer *//*# sourceMappingURL=screen.css.map */
+.content {
+  border: 2px solid black;
+}
+
+/* Footer */
+footer {
+  border: 2px solid black;
+}/*# sourceMappingURL=screen.css.map */
