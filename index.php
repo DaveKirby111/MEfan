@@ -1,6 +1,6 @@
 <?php include "partials/head.php"; ?>
 
-<!-- <?php include "partials/nav.php" ?> -->
+<?php include "partials/nav.php" ?>
 
 <?php
 
@@ -10,9 +10,11 @@ $heading = "homepage";
 
 <?php include "partials/banner.php"; ?>
 
-<div class="content container-fluid d-flex flex-column min-vh-100">
+<div class="content container-fluid d-flex flex-column min-vh-100 p-0">
 
 <main class="container-fluid flex-grow-1">
+
+<h2>intro</h2>
 
 </main>
 
