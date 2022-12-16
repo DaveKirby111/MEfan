@@ -55,10 +55,37 @@ nav {
     }
 }
 
+.dropdown-menu {
+
+    background-image: $HF-bg;
+
+   li {
+
+    a {
+        border-bottom: 4px solid goldenrod;
+        padding: 8px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        text-shadow: 1px 1px 1px red;
+    }
+
+   }
+}
+
 /* Content */
+
+.content {
+    background-size: cover;
+}
 
 main {
     text-transform: capitalize;
+    background-color: rgba(gray, 20%);
+    color: white;
 
     h2 {
         font-size: 35px;
@@ -71,8 +98,23 @@ main {
 footer {
     background-image: $HF-bg;
 
+    .cont {
+        border-right: 2px solid goldenrod;
+
         a {
             color: black;
         
         }
+
+        a:hover {
+                text-decoration: none;
+                color: white;
+                text-shadow: 1px 1px 1px red;
+        }
     }
+
+    .info {
+        border-left: 2px solid goldenrod;
+    }
+
+}

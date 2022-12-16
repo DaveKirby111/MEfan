@@ -62,9 +62,29 @@ nav p {
   font-size: 20px;
 }
 
+.dropdown-menu {
+  background-image: linear-gradient(orange, gold);
+}
+.dropdown-menu li a {
+  border-bottom: 4px solid goldenrod;
+  padding: 8px;
+}
+.dropdown-menu li a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 1px red;
+}
+
 /* Content */
+.content {
+  background-size: cover;
+}
+
 main {
   text-transform: capitalize;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: white;
 }
 main h2 {
   font-size: 35px;
@@ -75,6 +95,17 @@ main h2 {
 footer {
   background-image: linear-gradient(orange, gold);
 }
-footer a {
+footer .cont {
+  border-right: 2px solid goldenrod;
+}
+footer .cont a {
   color: black;
+}
+footer .cont a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px red;
+}
+footer .info {
+  border-left: 2px solid goldenrod;
 }/*# sourceMappingURL=screen.css.map */

@@ -8,24 +8,21 @@
             <li class="nav-item">
                 <a href="story.php" class="nav-link">story</a>
             </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">characters</a>
-            </li>
 
             <li class="nav-item  dropdown">
                     <a class="nav-link dropdown-toggle" 
                         href="#" 
                         role="button" 
                         data-bs-toggle="dropdown"
-                        aria-expanded="false">Dropdown</a>
+                        aria-expanded="false">games</a>
 
-                    <ul class="dropdown-menu">
-                        <li><a href="#" class="dropdown-item">link</a></li>
-                        <li><a href="#" class="dropdown-item">link</a></li>
-                        <li><a href="#" class="dropdown-item">link</a></li>
+                    <ul class="dropdown-menu p-0">
+                        <li><a href="me.php" class="dropdown-item">mass effect</a></li>
+                        <li><a href="me2.php" class="dropdown-item">mass effect 2</a></li>
+                        <li><a href="me3.php" class="dropdown-item">mass effect 3</a></li>
                     </ul>
             </li>
         </ul>
 
-        <p class="ml-auto d-flex align-items-center">mass effect fansite</p>
+        <p class="ml-auto mr-1 d-flex align-items-center">mass effect fansite</p>
     </nav>

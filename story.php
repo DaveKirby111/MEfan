@@ -10,7 +10,8 @@ $heading = "story";
 
 <?php include "partials/banner.php"; ?>
 
-<div class="content container-fluid d-flex flex-column min-vh-100 p-0">
+<div class="content container-fluid d-flex flex-column min-vh-100 p-0
+bg-image" style="background-image: url('images/space.webp')">
 
 <main class="container-fluid flex-grow-1">
 
