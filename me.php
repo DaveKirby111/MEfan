@@ -1,10 +1,13 @@
 <?php include "partials/head.php"; ?>
 
-<?php include "partials/nav.php" ?>
+<?php include "partials/nav.php"; ?>
 
 <?php
 
 $heading = "mass effect";
+
+require "functions.php";
+require "dbconnect.php";
 
 ?>
 
@@ -15,7 +18,50 @@ bg-image" style="background-image: url('images/space.webp')">
 
 <main class="container-fluid flex-grow-1">
 
-<h2>intro</h2>
+<h2>characters:</h2>
+
+<?php
+
+$db = new database();
+$chars = $db->query("select * from me1");
+
+foreach ($chars as $char) {
+
+    echo "<ul class='me-list'>";
+    echo "<li>" . $char['characters'] . " : " . $char['race'] . "</li>";
+    echo "</ul>";
+    
+}
+
+?>
+
+<table class="chars">
+
+    <tr>
+    <th>name</th>
+    <th>class</th>
+    <th>race</th>
+    </tr>
+
+    <?php
+
+    foreach ($chars as $char) {
+
+    ?>
+
+    <tr>
+        <td><?php echo $char['characters']; ?></td>
+        <td><?php echo $char['class']; ?></td>
+        <td><?php echo $char['race']; ?></td>
+    </tr>
+
+    <?php
+
+    }
+
+    ?>
+
+</table>
 
 </main>
 

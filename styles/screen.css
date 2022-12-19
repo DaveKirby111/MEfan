@@ -49,17 +49,10 @@ nav ul li {
   margin-left: 0;
   border-right: 2px solid goldenrod;
 }
-nav ul li a {
-  color: black;
-}
-nav ul li a:hover {
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  text-shadow: 1px 1px 1px red;
-}
 nav p {
   font-size: 20px;
+  margin-left: auto;
+  margin-right: 10px;
 }
 
 .dropdown-menu {
@@ -89,6 +82,30 @@ main {
 main h2 {
   font-size: 35px;
   text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.me-list {
+  list-style-type: none;
+}
+
+table, th, td {
+  border: 2px solid white;
+}
+
+.chars {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  width: 800px;
+}
+.chars th {
+  text-align: center;
+  font-size: 30px;
+}
+.chars td {
+  padding: 5px;
 }
 
 /* Footer */
@@ -100,6 +117,7 @@ footer .cont {
 }
 footer .cont a {
   color: black;
+  text-decoration: none;
 }
 footer .cont a:hover {
   text-decoration: none;
@@ -108,4 +126,5 @@ footer .cont a:hover {
 }
 footer .info {
   border-left: 2px solid goldenrod;
+  margin-left: auto;
 }/*# sourceMappingURL=screen.css.map */

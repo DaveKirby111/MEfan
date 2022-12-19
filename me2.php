@@ -6,6 +6,8 @@
 
 $heading = "mass effect 2";
 
+require "dbconnect.php";
+
 ?>
 
 <?php include "partials/banner.php"; ?>
@@ -15,7 +17,48 @@ bg-image" style="background-image: url('images/space.webp')">
 
 <main class="container-fluid flex-grow-1">
 
-<h2>intro</h2>
+<h2>characters:</h2>
+
+<?php
+
+$db = new database();
+$chars = $db->query("select * from me2");
+
+foreach ($chars as $char) {
+
+    echo "<ul class='me-list'>";
+    echo "<li>" . $char['characters'] . " : " . $char['race'] . "</li>";
+    echo "</ul>";
+    
+}
+
+?>
+
+<table class="chars">
+
+    <tr>
+    <th>name</th>
+    <th>race</th>
+    </tr>
+
+    <?php
+
+    foreach ($chars as $char) {
+
+    ?>
+
+    <tr>
+        <td><?php echo $char['characters']; ?></td>
+        <td><?php echo $char['race']; ?></td>
+    </tr>
+
+    <?php
+
+    }
+
+    ?>
+
+</table>
 
 </main>
 

@@ -6,6 +6,8 @@
 
 $heading = "story";
 
+require "functions.php";
+
 ?>
 
 <?php include "partials/banner.php"; ?>

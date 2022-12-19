@@ -6,8 +6,6 @@
 
 $heading = "homepage";
 
-require "functions.php";
-
 ?>
 
 <?php include "partials/banner.php"; ?>
